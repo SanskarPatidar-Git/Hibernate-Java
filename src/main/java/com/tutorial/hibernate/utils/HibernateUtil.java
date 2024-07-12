@@ -6,7 +6,7 @@ import org.hibernate.boot.registry.StandardServiceRegistryBuilder;
 import org.hibernate.cfg.Configuration;
 import org.hibernate.service.ServiceRegistry;
 
-import com.tutorial.hibernate.Emp;
+import com.tutorial.hibernate.entity.Emp;
 
 /* 
  * This class is responsible for creating and providing objects of
