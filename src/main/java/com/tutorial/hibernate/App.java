@@ -6,7 +6,11 @@ public class App {
 	  Repository repo = new Repository();
 	  
 	  //Insert data through ORM.
-	  Emp emp = new Emp("Sanskar",35000);
+	  Emp emp = new Emp("Sanskar",20000);
 	  repo.addEmp(emp); 
+	  
+	  //Retrieve data
+	  Emp searchEmp = repo.getEmp(10);
+	  System.out.print("Search Emp: "+searchEmp);
   }
 }

@@ -63,6 +63,13 @@ public class Emp {
 	public void setSalary(double salary) {
 		this.salary = salary;
 	}
+
+
+	@Override
+	public String toString() {
+		return "Emp [id=" + id + ", name=" + name + ", salary=" + salary + "]";
+	}
+	
 	
 	
 }
