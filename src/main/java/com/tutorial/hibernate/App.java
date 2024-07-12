@@ -8,7 +8,7 @@ public class App {
     
 	  Repository repo = new Repository();
 	  
-	  /* ================== CRUD Using Hibernate(ORM)======================*/
+	  /* ====================== CRUD Using Hibernate(ORM)======================*/
 	  
 	  //Insert
 	  Emp emp = new Emp("Sanskar",20000);
