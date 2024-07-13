@@ -28,6 +28,7 @@ public class Emp {
 	@Column(name = "salary")
 	private double salary;
 	
+	
 	//Required an empty constructor to map the values by ORM.
 	public Emp() {
 		

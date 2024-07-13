@@ -7,6 +7,8 @@ import org.hibernate.cfg.Configuration;
 import org.hibernate.service.ServiceRegistry;
 
 import com.tutorial.hibernate.entity.Emp;
+import com.tutorial.hibernate.entity.Order;
+import com.tutorial.hibernate.entity.User;
 
 /* 
  * This class is responsible for creating and providing objects of
@@ -33,6 +35,8 @@ public class HibernateUtil {
             
             sessionFactory = configuration
             		.addAnnotatedClass(Emp.class)
+            		.addAnnotatedClass(User.class)
+            		.addAnnotatedClass(Order.class)
             		.buildSessionFactory(serviceRegistry);
             
         } catch (Throwable ex) {
